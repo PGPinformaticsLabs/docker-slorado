@@ -1,0 +1,3 @@
+[submodule "slorado"]
+	path = slorado
+	url = https://github.com/BonsonW/slorado.git
