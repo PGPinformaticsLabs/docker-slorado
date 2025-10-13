@@ -1,8 +1,8 @@
 Slorado containerization
 ========================
 
-[Slorado](https://github.com/BonsonW/slorado) is a basecaller built on top of
-the S/BLOW5 format, a simplified lean version of [Dorado](https://github.com/nanoporetech/dorado).
+[Slorado][slorado] is a basecaller built on top of the S/BLOW5 format, a
+simplified lean version of [Dorado][dorado].
 
 This project aims to provide easy access to Slorado with reproducible builds on
 AMD and nVidia GPU platforms, in the form of Docker containers that include
@@ -10,3 +10,18 @@ supporting libraries.
 
 In addition, we will provide CWL tool description files that enables
 integration of Slorado into bioinformatics pipelines.
+
+Technical goals
+---------------
+
+- Create compact, testable, and reproducible builds of Slorado Docker images
+  with the support of compatible ROCm and CUDA GPU computing libraries.
+- Develop [Common Workflow Language (CWL)][cwl] tool descriptions and workflows
+  for Slorado following best practices.
+- Make Slorado containers and CWL pipelines available via [BioContainers][bc].
+
+
+[slorado]: https://github.com/BonsonW/slorado
+[dorado]: https://github.com/nanoporetech/dorado
+[cwl]: https://www.commonwl.org/
+[bc]: https://biocontainers.pro/
