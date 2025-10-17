@@ -11,6 +11,9 @@ supporting libraries.
 In addition, we will provide CWL tool description files that enables
 integration of Slorado into bioinformatics pipelines.
 
+The CWL tool description will be the basis of reusable bioinformatics pipelines
+(workflows) that will be provided by this project.
+
 Technical goals
 ---------------
 
